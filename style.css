@@ -184,4 +184,13 @@ summary{
     h3{
         font-size:32px;
     }
+     #home h3{
+        font-size:28px;
+    }
+    #home p{
+        font-size:20px;
+        line-height: 1.4;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
