@@ -178,6 +178,8 @@ summary{
     }
     #menuButton{
         font-size:38px;
+        margin-top:-40px;
+        margin-bottom: 10px;
     }
     #sideMenu a{
         font-size: 24px;
