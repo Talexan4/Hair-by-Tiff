@@ -170,10 +170,11 @@ summary{
 }
 @media (max-width:768px){
     nav h1{
-        font-size: 72px;
+        font-size: 48px;
+        line-height:1;
     }
     nav p{
-        font-size:32px;
+        font-size:22px;
     }
     #menuButton{
         font-size:38px;
@@ -185,14 +186,21 @@ summary{
         font-size:32px;
     }
      #home h3{
-        font-size:50px;
+        font-size:42px;
+         line-height:1.2;
     }
     #home p{
-        font-size:32px;
+        font-size:24px;
         line-height: 1.4;
         width: 90%;
         margin: 0 auto;
     }
     body{zoom:1.25;
+    }
+    #menuButton{
+        display:block;
+        text-align:left;
+        margin-left:20px;
+        margin-bottom:20px;
     }
 }
