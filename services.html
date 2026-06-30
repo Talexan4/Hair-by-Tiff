@@ -28,7 +28,15 @@ content="width=device-width, initial-scale=1.0">
 <p class="services-intro">
 Tap the guide below to explore our services and pricing, and let's find the perfect service to elevate your confidence!
 </p>
-
+<img src="prices.jpg"
+    alt="Services and Pricing"
+    class="services-flyer"
+    id="servicesFlyer">
+<div id="lightbox"
+onclick="closeLightbox()">
+    <span id="close">&times;</span>
+    <img id="lightboximg">
+</div>
 <body>
 
 
@@ -38,6 +46,21 @@ Tap the guide below to explore our services and pricing, and let's find the perf
     }
      function closeMenu(){
         document.getElementById("sideMenu").classList.remove("open");      
+    }
+    const flyer =
+    document.getElementById("servicesFlyer");
+    const lightbox =
+    document.getElementById("lightbox");
+    const lightboximg =
+    document.getElementById("lightboximg");
+
+    flyer.onclick = function (){
+        lightbox.classList.add("show");
+        lightboximg.src =this.src;
+    }
+
+    function closeLightbox (){
+        lightbox.classList.remove("show");
     }
 </script>
 </body>
