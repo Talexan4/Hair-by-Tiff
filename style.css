@@ -193,4 +193,6 @@ summary{
         width: 90%;
         margin: 0 auto;
     }
+    body{zoom:1.25;
+    }
 }
