@@ -135,7 +135,6 @@ summary{
     left:0;
     background:#111;
     overflow-x:hidden;
-    transistion:.4s;
     padding-top:70px;
     z-index:9999;
     transform:translateX(-320px);
@@ -167,4 +166,32 @@ summary{
 }
 #home, nav{
     transition:margin-left:.4s;
+}
+ @media (max-width:768px){
+    nav h1{
+        font-size: 72px;
+    }
+    nav p{
+        font-size:32px;
+    }
+    #menuButton{
+        font-size:38px;
+    }
+    #sideMenu a{
+        font-size: 24px;
+    }
+    h3{
+        font-size:32px;
+    }
+    #home h3{
+        font-size:50px;
+    }
+    #home p{
+        font-size:32px;
+        line-height: 1.4;
+        width: 90%;
+        margin: 0 auto;
+    }
+    body{zoom:1.25;
+    }
 }
