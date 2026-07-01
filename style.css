@@ -243,6 +243,7 @@ summary{
  @media (max-width:768px){
     nav h1{
         font-size: 48px;
+        text-align:center;
     }
     nav p{
         font-size:22px;
