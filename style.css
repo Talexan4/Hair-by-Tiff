@@ -295,6 +295,12 @@ summary{
         font-size: 30px;
         margin-top: 0;
     }
+     .gallery{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+     }
      .gallery img{
         width: 100%;
         max-width: 350px;
@@ -302,6 +308,7 @@ summary{
         border-radius: 10px;
         margin: 15px auto;
         display: block;
+        object-fit:cover;
      }
         }
    
