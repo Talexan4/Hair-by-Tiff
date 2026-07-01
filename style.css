@@ -295,5 +295,13 @@ summary{
         font-size: 30px;
         margin-top: 0;
     }
+     .gallery img{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        border-radius: 10px;
+        margin: 15px auto;
+        display: block;
+     }
         }
    
