@@ -192,6 +192,27 @@ summary{
         margin-top: -10px;
         margin-bottom: 0;
     }
+    h4{
+        text-align: center;
+        margin: 25px auto;
+        font-size:65px;
+        margin-top: -10px;
+        margin-bottom: 0;
+    }
+    h6{
+        text-align: center;
+        margin: 25px auto;
+        font-size:65px;
+        margin-top: -10px;
+        margin-bottom: 0;
+    }
+    h5{
+        text-align: center;
+        margin: 25px auto;
+        font-size:65px;
+        margin-top: -10px;
+        margin-bottom: 0;
+    }
         .services-intro{
         width:60%;
         margin:15px auto;
@@ -240,10 +261,38 @@ summary{
         font-size: 45px;
         cursor: pointer;
     }
+    .gallery{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+    .gallery img{
+        width:250px;
+        height:250px;
+        object-fit:cover;
+        border-radius:15px;
+    }
+    .videos{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+        text-align:center;
+    }
+    .videos video{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+
+        }
  @media (max-width:768px){
     nav h1{
         font-size: 48px;
-        text-align:center;
+        text-align: center;
     }
     nav p{
         font-size:22px;
@@ -292,7 +341,7 @@ summary{
         margin:15px auto;
         text-align:center;
         line-height:1.6;
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 0;
     }
      .gallery{
@@ -310,5 +359,10 @@ summary{
         display: block;
         object-fit:cover;
      }
+     .videos video{
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
         }
    
