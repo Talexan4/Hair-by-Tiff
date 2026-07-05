@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+    <title>Hair by Tiffany</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+   <div class="page-logo">
+    <img src="dark_logo.png" alt="Hair by Tiffany Logo">
+   </div>
+    </nav>
+    <div id="menuButton" onclick="openMenu()">☰ Menu</div>
+
+<div id="sideMenu">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="specials.html">Specials</a>
+    <a href="contact.html">Contact</a>
+</div>
+<h2>Hello Beautiful People!</h2>
+<p class="services-intro">
+Tap the guide below to explore our services and pricing, and let's find the perfect service to elevate your confidence!
+</p>
+<img src="prices.jpg"
+    alt="Services and Pricing"
+    class="services-flyer"
+    id="servicesFlyer">
+<div id="lightbox"
+onclick="closeLightbox()">
+    <span id="close">&times;</span>
+    <img id="lightboximg">
+</div>
+<body>
+
+
+<script>
+    function openMenu(){
+        document.getElementById("sideMenu").classList.add("open");
+    }
+     function closeMenu(){
+        document.getElementById("sideMenu").classList.remove("open");      
+    }
+    const flyer =
+    document.getElementById("servicesFlyer");
+    const lightbox =
+    document.getElementById("lightbox");
+    const lightboximg =
+    document.getElementById("lightboximg");
+
+    flyer.onclick = function (){
+        lightbox.classList.add("show");
+        lightboximg.src =this.src;
+    }
+
+    function closeLightbox (){
+        lightbox.classList.remove("show");
+    }
+</script>
+</body>
+</html>
