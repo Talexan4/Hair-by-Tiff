@@ -180,7 +180,9 @@ h5 {
     margin: 20px auto;
     border-radius: 10px;
 }
-
+.menu-toggle{
+    display:none;
+}
 @media (max-width: 768px) {
     nav h1 {
         font-size: 48px;
@@ -251,7 +253,23 @@ h5 {
         background-repeat: no-repeat;
     }
     body {
-    background: red !important;
+        background: radial-gradient(circle at 20% 30%, rgba(128, 0, 255, .35), transparent 30%), #111111;
+    
+}
+.menu-toggle{
+    display: block;
+}
+.nav-links{
+    display: none;
+}
+.menu-toggle{
+    display:block;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    color:white;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 }
 
