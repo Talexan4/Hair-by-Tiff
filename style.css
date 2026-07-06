@@ -250,9 +250,7 @@ h5 {
         background-size: contain;
         background-repeat: no-repeat;
     }
-    body {
-    background: red !important;
-}
+
 .mobile-menu .nav-links{
     display:flex;
     flex-direction: column;
