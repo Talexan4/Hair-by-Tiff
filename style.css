@@ -255,6 +255,16 @@ h5 {
     display:flex;
     flex-direction: column;
 }
+.mobile-menu summery {
+    list-style: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+.mobile-menu
+summary::-webkit-details-marker{
+    display:none; 
+}
 }
 
    
