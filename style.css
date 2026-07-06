@@ -265,6 +265,9 @@ h5 {
 summary::-webkit-details-marker{
     display:none; 
 }
+.mobile-menu summary:: {
+    content:"";
+}
 }
 
    
