@@ -75,20 +75,26 @@ button {
     top: 25px;
     right: 25px;
 }
-
-.closebtn {
-    position: absolute;
-    top: 15px;
-    right: 25px;
-    font-size: 55px !important;
-}
-
-.page-logo img {
-    width: 450px;
-    max-width: 95%;
+#services {
+    text-align: left;
+    padding: 40px;
+    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .45)), url("Heropic.jpg");
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     display: block;
-    margin: 20px auto;
 }
+#services h3{
+    font-size: 100px;
+    margin-top: -30px;
+    letter-spacing: 10px;
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+
+
+
 
 h2,
 h4,
@@ -99,56 +105,9 @@ h5 {
     font-size: 65px;
 }
 
-.services-intro {
-    width: 60%;
-    margin: 15px auto;
-    text-align: center;
-    line-height: 1.6;
-    font-size: 55px;
-}
 
-.services-flyer {
-    display: block;
-    width: 45%;
-    max-width: 150px;
-    margin: 30px auto;
-    border-radius: 12px;
-    cursor: pointer;
-}
 
-#lightbox {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .4s ease;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .9);
-    z-index: 9999;
-    text-align: center;
-}
 
-#lightbox.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-#lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-    margin-top: 3%;
-}
-
-#close {
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    color: white;
-    font-size: 45px;
-    cursor: pointer;
-}
 
 .gallery {
     display: flex;
@@ -221,13 +180,7 @@ h5 {
         font-size: 32px;
     }
 
-    .services-intro {
-        width: 100%;
-        margin: 15px auto;
-        text-align: center;
-        line-height: 1.6;
-        font-size: 25px;
-    }
+    
 
     .gallery img {
         width: 100%;
