@@ -226,26 +226,11 @@ h5 {
     display: flex;
     flex-direction: column;
 }
-}
-details.mobile-menu {
-    display: block;
-    margin-left: auto;
-    font-size: 15px;
-    color: white;
-    }
-    details.mobile-menu summary {
-    list-style: none;
-    cursor: pointer;
-}
 
-details.mobile-menu summary::-webkit-details-marker {
-    display: none;
-}
 .hamburger {
     display: block;
 }
 
-}
 .mobile-menu{
     display:none;
     }
