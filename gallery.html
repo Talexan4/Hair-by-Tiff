@@ -13,17 +13,18 @@ content="width=device-width, initial-scale=1.0">
    <div class="page-logo">
     <img src="dark_logo.png" alt="Hair by Tiffany Logo">
    </div>
-    </nav>
-    <div id="menuButton" onclick="openMenu()"> Menu</div>
-
-<div id="sideMenu">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+   <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+<div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
     <a href="services.html">Services</a>
     <a href="gallery.html">Gallery</a>
     <a href="specials.html">Specials</a>
     <a href="contact.html">Contact</a>
 </div>
+    </nav>
+    
+
+
 </body>
 <h2>Transformations </h2>
 <div class="gallery">
@@ -109,7 +110,6 @@ content="width=device-width, initial-scale=1.0">
                 <img src ="bright_color.jpg">
                 <h5></h5>
                 <img src ="bright_color_2.jpg">
-                <h5></h5>
                 <img src ="woman's_cut_style.jpg">
                 <h5></h5>
             </div>  
@@ -148,12 +148,8 @@ content="width=device-width, initial-scale=1.0">
 
 
 <script>
-    function openMenu(){
-        document.getElementById("sideMenu").classList.add("open");
-    }
-     function closeMenu(){
-        document.getElementById("sideMenu").classList.remove("open");      
-    }
+    function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
 </script>
 </body>
 </html>
