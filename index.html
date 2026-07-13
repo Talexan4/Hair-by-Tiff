@@ -11,7 +11,8 @@ content="width=device-width, initial-scale=1.0">
 <body>
     <nav>
     <h1>Hair by Tiffany</h1>  
-<div class="nav-links">
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+<div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
     <a href="services.html">Services</a>
     <a href="gallery.html">Gallery</a>
@@ -36,7 +37,9 @@ content="width=device-width, initial-scale=1.0">
 
 </section> 
 <script>
-   
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
 </script>
 </body>
 </html>
