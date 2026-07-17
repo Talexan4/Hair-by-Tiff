@@ -34,8 +34,8 @@ nav h1 {
 nav a {
     color: white;
     text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
+    font-family: 'Allura', cursive;
+    font-size:px;
     font-weight: 600;
     margin-left: 50px;
 }
@@ -52,7 +52,7 @@ nav a {
 }
 
 button {
-    background: purple;
+    background:  linear-gradient(to bottom, #b98da7, #a87995);
     color: white;
     border: none;
     padding: 12px 25px;
@@ -169,7 +169,7 @@ h1 img{
     margin-bottom: 18px;
     border-radius: 18px;
     overflow: hidden;
-    background:linear-gradient(to bottom, #b98da7, #a87995);
+    background:linear-gradient(to bottom, #c7a4bb, #b78ca5);
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
 }
 
@@ -198,8 +198,8 @@ h1 img{
 }
 
 .category-left img {
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
     object-fit: contain;
     margin-right:18px;
 }
