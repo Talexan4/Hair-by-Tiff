@@ -26,8 +26,241 @@ content="width=device-width, initial-scale=1.0">
     <section id="service-menu-header">
     <img src="services.png" alt="Our Services">
 </section>
+<section class="service-menu">
+
+    <!-- HAIRCUTS -->
+    <div class="service-category">
+
+        <button class="service-dropdown">
+            <span class="category-left">
+                <img src="scissors.png" alt="">
+                <span>Haircuts</span>
+            </span>
+
+            <span class="dropdown-arrow">⌄</span>
+        </button>
+
+        <div class="service-panel">
+
+            <div class="service-item">
+                <div>
+                    <h3>Men's Cuts</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="service-item">
+                <div>
+                    <h3>Women's Cuts</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="service-item">
+                <div>
+                    <h3>Kids Cuts</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="service-item">
+                <div>
+                    <h3>Beard Trims</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- COLOR -->
+    <div class="service-category">
+
+        <button class="service-dropdown">
+            <span class="category-left">
+                <img src="color.png" alt="">
+                <span>Color Services</span>
+            </span>
+
+            <span class="dropdown-arrow">⌄</span>
+        </button>
+
+        <div class="service-panel">
+
+            <div class="service-item">
+                <div>
+                    <h3>Bleaching Services</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="service-item">
+                <div>
+                    <h3>Basic Color</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- STYLING -->
+    <div class="service-category">
+
+        <button class="service-dropdown">
+            <span class="category-left">
+                <img src="styling.png" alt="">
+                <span>Styling</span>
+            </span>
+
+            <span class="dropdown-arrow">⌄</span>
+        </button>
+
+        <div class="service-panel">
+
+            <div class="service-item">
+                <div>
+                    <h3>Shampoo and Set</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="service-item">
+                <div>
+                    <h3>Perms</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- HAIR TREATMENTS -->
+    <div class="service-category">
+
+        <button class="service-dropdown">
+            <span class="category-left">
+                <img src="condition.png" alt="">
+                <span>Hair Treatments</span>
+            </span>
+
+            <span class="dropdown-arrow">⌄</span>
+        </button>
+
+        <div class="service-panel">
+
+            <div class="service-item">
+                <div>
+                    <h3>Hair Treatments</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+            <div class="service-item">
+                <div>
+                    <h3>Deep Conditioning</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- TANNING -->
+    <div class="service-category">
+
+        <button class="service-dropdown">
+            <span class="category-left">
+                <img src="tanning.png" alt="">
+                <span>Tanning</span>
+            </span>
+
+            <span class="dropdown-arrow">⌄</span>
+        </button>
+
+        <div class="service-panel">
+
+            <div class="service-item">
+                <div>
+                    <h3>Tanning</h3>
+                    <p>$00</p>
+                </div>
+
+                <a href="appointment.html" class="service-book-btn">
+                    Book Appointment
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</section>
 <script>
 function toggleMenu() {
     document.getElementById("navLinks").classList.toggle("show");
 }
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const dropdowns = document.querySelectorAll(".service-dropdown");
+
+    dropdowns.forEach(function (dropdown) {
+
+        dropdown.addEventListener("click", function () {
+
+            const panel = dropdown.nextElementSibling;
+
+            dropdown.classList.toggle("active");
+            panel.classList.toggle("open");
+
+        });
+
+    });
+
+});
 </script>
