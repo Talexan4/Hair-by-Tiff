@@ -220,6 +220,16 @@ h1 img{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    #services p{
+        font-size: 32px;
+ }
+ #services button{
+    display: block;
+    margin:60px auto 0 auto;
+    width: 220px;
+    font-size:16px;
+    padding:8px 14px;
+ }
 .nav-links {
     display: none;
 }
