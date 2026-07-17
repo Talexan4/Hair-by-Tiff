@@ -380,6 +380,7 @@ h1 img{
  }
 .nav-links {
     display: none;
+    font-size:20px;
 }
 
 .nav-links.show {
