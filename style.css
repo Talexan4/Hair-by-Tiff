@@ -149,6 +149,16 @@ h1 img{
     height: auto;
     display: block;
 }
+#service-menu-header {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#service-menu-header img {
+    width: 450px;
+    max-width: 90%;
+    height: auto;
+}
 
 
 
@@ -246,4 +256,7 @@ h1 img{
 .mobile-menu{
     display:none;
     }
-   
+    #service-menu-header img {
+    width: 260px;
+    margin-top: -10px;
+    }
