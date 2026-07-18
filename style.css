@@ -424,6 +424,30 @@ h1 img{
 .hamburger {
     display: block;
 }
+@media (max-width: 768px) {
+
+    #specials {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .specials-title {
+        width: 80%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .specials-tagline {
+        width: 90%;
+        margin: 0 auto;
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+}
 
 .mobile-menu{
     display:none;
