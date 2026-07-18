@@ -34,8 +34,8 @@ nav h1 {
 nav a {
     color: white;
     text-decoration: none;
-    font-family: 'Allura', cursive;
-    font-size:px;
+    font-family: "Cormorant Garamond", serif;
+    font-size:32px;
     font-weight: 600;
     margin-left: 50px;
 }
@@ -61,7 +61,7 @@ button {
 }
 
 #menuButton {
-    font-family: 'Allura', cursive;
+    font-family: "Cormorant Garamond", serif;
     font-size: 42px;
     color: white;
     cursor: pointer;
@@ -123,6 +123,20 @@ h5 {
     object-fit: cover;
     border-radius: 15px;
 }
+.gallery h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size: 42px;
+    color:#fff8fc;
+    text-align: center;
+    margin-bottom:25px;
+}
+.gallery-title{
+    font-family:"Cormorant Garamond", serif;
+    font-size: 42px;
+    color: #fff8fsc;
+    text-align:center;
+    margin-bottom:25px;
+}
 
 .videos {
     display: flex;
@@ -151,7 +165,7 @@ h1 img{
 }
 #service-menu-header {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 #service-menu-header img {
@@ -162,7 +176,7 @@ h1 img{
 .service-menu {
     width: 96%;
     max-width: 1100px;
-    margin: 50px auto;
+    margin: -80px auto 50px;
 }
 
 .service-category {
@@ -183,8 +197,8 @@ h1 img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 62px;
-    font-family: inherit;
+    font-size: 38px;
+    font-family: "Cormorant Garamond", serif;
     font-color:#FFFFFF;
 }
 
@@ -227,20 +241,23 @@ h1 img{
 .service-item h3 {
     margin: 0;
     color: #3f2d39;
-    font-size: 52px;
+    font-size: 32px;
     font-weight:500;
     font-color:#FFF8FC;
+    font: "Cormorant Garamond", serif;
 }
 
 .service-item p {
     margin-top: 6px;
     color: #8a667e;
-    font-size: 42px;
+    font-size: 22px;
     font-weight: bold;
+    font:"Cormorant Garamond", serif;
 }
 
 .service-book-btn {
     padding: 14px 22px;
+    font:"Cormorant Garamond", serif;
     font-size:22px;
      border-radius: 30px;
     background-color: #b988a4;
@@ -267,6 +284,13 @@ h1 img{
 .service-panel.open {
     display: block;
 }
+.services-title {
+   display: block;
+   width: 400 px;
+   max-width: 30%;
+   height: auto;
+   margin: -40px 0 -10px 90px
+   }
 #specials {
     text-align: left;
     padding: 40px;
@@ -286,9 +310,9 @@ h1 img{
    }
 .specials-tagline {
     text-align: left;
-    color: #f5f1eb;
+    color: #FAFAF8;
     font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Cormorant Garamond", serif;
     font-weight: 300;
     letter-spacing: 2px;
     line-height: 1.7;
@@ -322,6 +346,7 @@ h1 img{
         padding: 18px 16px;
         flex-direction: column;
         align-items: flex-start;
+        text-size: 32px;
     }
 
     .service-book-btn {
@@ -436,11 +461,13 @@ h1 img{
         width: 80%;
         max-width: 300px;
         margin: 20px auto;
+        margin-top: -60px
     }
 
     .specials-tagline {
         width: 90%;
         margin: 0 auto;
+        margin-top: -800px;
         padding-left: 0;
         text-align: center;
         font-size: 16px;
