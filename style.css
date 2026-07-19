@@ -133,7 +133,7 @@ h5 {
 .gallery-title{
     font-family:"Cormorant Garamond", serif;
     font-size: 42px;
-    color: #fff8fsc;
+    color: #ffffff;
     text-align:center;
     margin-bottom:25px;
 }
@@ -199,7 +199,7 @@ h1 img{
     justify-content: space-between;
     font-size: 38px;
     font-family: "Cormorant Garamond", serif;
-    font-color:#FFFFFF;
+   
 }
 
 .category-left {
@@ -234,7 +234,7 @@ h1 img{
     align-items: center;
     gap: 30px;
     padding: 24px 35px;
-    border-bottom:: 1px solid rgba(155,102,136,.18);
+    border-bottom: 1px solid rgba(155,102,136,.18);
     justify-items:start;
 }
 
@@ -243,7 +243,6 @@ h1 img{
     color: #3f2d39;
     font-size: 32px;
     font-weight:500;
-    font-color:#FFF8FC;
     font: "Cormorant Garamond", serif;
 }
 
@@ -302,32 +301,30 @@ h1 img{
     display: block;
 }
 .specials-title {
-   display: block;
-   width: 300 px;
-   max-width: 30%;
-   height: auto;
-   margin: -40px 0 0 180px
+   display:block;
+   width:500px;
+   max-width:30%;
+   height:auto;
+   margin:-80px 0 0 130px;
    }
 .specials-tagline {
-    text-align: left;
-    color: #FAFAF8;
-    font-size: 22px;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 1.7;
-    margin-top: 20px;
-    margin-left:220px
-    width: 420px;
-    padding-left: 220px;
+    text-align:left;
+    color:#FAFAF8;
+    font-size:22px;
+    font-family:"Cormorant Garamond", serif;
+    font-weight:300;
+    letter-spacing:2px;
+    line-height:1.7;
+    margin: -100px 0 0 275px;
+    width:500px;
+    padding-left:0;
 }
 .weekly-specials{
-    font-family:'Chalkboard SE';'Marker Felt', cursive;
-    margin-top: -100px;
-}
-
-
-
+    font-family:'Caveat', cursive;
+    margin-top:-70px;
+    font-size: 38px;
+    line-height: 1.4;
+    margin-left:205px;
 }
 
 @media screen and (max-width: 600px) {
@@ -351,7 +348,7 @@ h1 img{
         padding: 18px 16px;
         flex-direction: column;
         align-items: flex-start;
-        text-size: 32px;
+        font-size: 32px;
     }
 
     .service-book-btn {
@@ -360,9 +357,6 @@ h1 img{
         text-align: center;
     }
 }
-
-
-
 @media (max-width: 780px) {
     nav h1 {
         font-size: 32px;
@@ -454,6 +448,7 @@ h1 img{
 .hamburger {
     display: block;
 }
+}
 @media (max-width: 768px) {
 
     #specials {
@@ -479,17 +474,17 @@ h1 img{
         letter-spacing: 1px;
     }
     .weekly-specials{
-    font-family:'Chalkboard SE';'Marker Felt', cursive;
-    margin-top: -100px;
+    font-family:'Caveat', cursive;
+    margin-top: -65px;
+    margin-left:-15px;
     font-size:18px;
     text-align: center;
 }
-
-
 .mobile-menu{
     display:none;
-    }
+}
     #service-menu-header img {
     width: 200px;
     margin-top: -10px;
     }
+}
