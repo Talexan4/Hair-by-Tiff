@@ -345,6 +345,7 @@ h1 img{
     }
     .services-tagline{
         margin-left:20px;
+        margin-top:20px;
     }
 
     .service-dropdown {
@@ -490,7 +491,7 @@ h1 img{
     font-family:'Caveat', cursive;
     margin-top: -65px;
     margin-left:-15px;
-    font-size:18px;
+    font-size:22px;
     text-align: center;
 }
 .mobile-menu{
