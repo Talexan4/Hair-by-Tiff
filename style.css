@@ -87,10 +87,16 @@ button {
     letter-spacing: 9px;
     margin-bottom: -30px;
 }
+.services-tagline{
+    font-family:'Allura', cursive !important;
+    font-size: 52px;
+    color:white;
+    margin-top:-40px;
+    margin-left:200px;
+}
 #services button{
     font-size: 30px;
     padding: 15px 35px;
-    margin-left: 200px;
     margin-top: 100px;
 }
 
@@ -268,6 +274,7 @@ h1 img{
     grid-column:2;
     justify-self:end;
     align-self: center;
+    margin-left: 110px;
     }
 
 .service-book-btn:hover {
@@ -288,7 +295,7 @@ h1 img{
    width: 400 px;
    max-width: 30%;
    height: auto;
-   margin: -40px 0 -10px 90px
+   margin: -100px 0 -20px 90px
    }
 #specials {
     text-align: left;
@@ -316,7 +323,7 @@ h1 img{
     letter-spacing:2px;
     line-height:1.7;
     margin: -100px 0 0 275px;
-    width:500px;
+    width:500px; 
     padding-left:0;
 }
 .weekly-specials{
@@ -332,6 +339,12 @@ h1 img{
     .service-menu {
         width: 92%;
         margin: 25px auto;
+    }
+    .services-title{
+        display:none;
+    }
+    .services-tagline{
+        margin-left:20px;
     }
 
     .service-dropdown {
