@@ -727,29 +727,6 @@ h1 img{
 
 
 
-.booking-container {
-    display: block;
-    width: 82%;
-    max-width: 82%;
-    min-width: 0;
-    margin: 75px auto 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    left: auto;
-    right: auto;
-    transform: none;
-    overflow-x: hidden;
-}
-
-.appointment-btn {
-    background:  linear-gradient(to bottom, #b98da7, #a87995);
-    color: white;
-    border: none;
-    font-size:16px;
-    font-family:"Cormorant Garamond",serif;
-   
-}
 
 
     
