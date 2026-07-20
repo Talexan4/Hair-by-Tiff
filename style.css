@@ -536,8 +536,9 @@ h1 img{
 
     #home {
         background-position: center center;
-        background-size: contain;
+        background-size: 200% auto;
         background-repeat: no-repeat;
+        min-height:auto;
     }
     #services{
         background-position: center center;
