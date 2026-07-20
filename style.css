@@ -58,6 +58,8 @@ nav a {
     padding: 12px 25px;
     cursor: pointer;
     margin-left: auto;
+    font-size:32px;
+    font-family:"Cormorant Garamond",serif;
 }
 
 #menuButton {
@@ -736,14 +738,14 @@ h1 img{
     overflow-x: hidden;
 
     background-size: 200% auto;
-    background-position: center center;
+    background-position: center 15%;
     background-repeat: no-repeat;
     min-height: auto;
 }
 .appointment-page h2 {
     width: 90%;
     max-width: 90%;
-    margin: -10px auto 0;
+    margin: 2px auto 0;
     text-align: center;
     font-size: 28px;
 }
@@ -758,10 +760,10 @@ h1 img{
 
 .booking-container {
     display: block;
-    width: 90%;
-    max-width: 90%;
+    width: 82%;
+    max-width: 82%;
     min-width: 0;
-    margin: 35px auto 0;
+    margin: 75px auto 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
@@ -769,6 +771,14 @@ h1 img{
     right: auto;
     transform: none;
     overflow: hidden;
+}
+.appointment-btn {
+    background:  linear-gradient(to bottom, #b98da7, #a87995);
+    color: white;
+    border: none;
+    font-size:16px;
+    font-family:"Cormorant Garamond",serif;
+   
 }
 
 
