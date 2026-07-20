@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+    <title>Hair by Tiffany</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <h1>
+        <img src="logo2.png"alt="Hair by Tiffany">
+    </h1>  
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+<div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="specials.html">Specials</a>
+</div>
+     
+    </nav>
+    <main class="appointment-page">
+        <h2>Book Your Appointment</h2>
+
+        <p>Choose your service, date, and time below. If that appointment needs to be adjusted, Tiffany will respond to your request within 2 hours.</p>
+        <div class="booking-container">
+        <script src='https://square.site/appointments/buyer/widget/50i3fn3we3m1cr/LPS8D69GT0PBW.js'></script>
+    </div>
+    </main>
+        <footer class="site-footer">
+    <div class="footer-contact">
+        <a href="4054147962">📞Text 405-414-7962</a>
+        <a href="https://www.facebook.com/profile.php?id=100058627775452"target="_blank" rel="noopener noreferrer">
+                Follow & Review on Facebook
+            </a>
+         </div>
+        <p class="copyright">
+            @2026 Hair by Tiffany
+        </p>
+        </footer>
+    <script>
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
+</script>
