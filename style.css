@@ -725,21 +725,7 @@ h1 img{
     font-size: 22px;
 }
 
-.appointment-page h2 {
-    width: 90%;
-    max-width: 90%;
-    margin: 2px auto 0;
-    text-align: center;
-    font-size: 28px;
-}
 
-.appointment-page p {
-    width: 90%;
-    max-width: 90%;
-    margin: 10px auto;
-    text-align: center;
-    font-size: 22px;
-}
 
 .booking-container {
     display: block;
