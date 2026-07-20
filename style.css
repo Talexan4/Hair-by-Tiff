@@ -657,12 +657,13 @@ h1 img{
     transform: rotate(-6deg);
 }
 .quote{
-    font-size: 1.3rem;
+    
     max-width:95%
 }
 .quote-section{
     margin-top:600px;
     padding:20px 15px;
+    font-size: 40px;
 }
 .footer-contact {
     flex-direction: column;
@@ -670,7 +671,7 @@ h1 img{
 }
 
 .footer-contact p {
-    font-size: .95rem;
+    font-size: 22px;
 }
 }
     
