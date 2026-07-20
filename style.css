@@ -770,7 +770,17 @@ h1 img{
     left: auto;
     right: auto;
     transform: none;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+.booking-container>*{
+    width:100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+}
+.booking-containere div{
+    max-width: 100% !important;
+    box-sizing: border-box !important;
 }
 .appointment-btn {
     background:  linear-gradient(to bottom, #b98da7, #a87995);
