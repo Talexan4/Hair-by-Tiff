@@ -728,12 +728,8 @@ h1 img{
      background-repeat: no-repeat;
      min-height: auto;
 }
-.appointment-page{
-    width:100%;
-    max-width: 100%;
-    overflow-x:hidden;
-    box-sizing: border-box;
-}
+
+
 .appointment-page h2{
   
     max-width: 90%;
