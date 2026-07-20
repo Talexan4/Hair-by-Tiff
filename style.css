@@ -14,7 +14,7 @@ body {
 
 nav {
     background-color: black;
-    padding: 20px;
+    padding: 5px 5px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -385,11 +385,60 @@ h1 img{
 }
 .about-photos img {
     position: absolute;
-    width: 220px;
+    width: 2250px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,.4);
 }
+.quote-section{
+    background: transparent;
+    padding:20px;
+    text-align:center;
+    margin-top:450px;
+}
+.quote{
+    font-family:"allura",cursive;
+    font-size:2rem;
+    color:#F7F3F5;
+    max-width: 900px;
+    margin:0 auto;
+    line-height: 1.5;
+}
+.site-footer {
+    background: #111111;
+    padding: 20px;
+    text-align: center;
+}
 
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    font-size: 2.0rem;
+}
+
+.footer-contact p {
+    margin: 0;
+    font-size: 2.0rem;
+}
+
+.footer-contact a {
+    color: #F7F3F5;
+    text-decoration: underline;
+    font-size:2.0rem;
+}
+
+.footer-contact a:hover {
+    color: #D8B4D0;
+}
+
+.copyright {
+    font-size: .85rem;
+    color: #999;
+    margin: 0;
+}
 @media screen and (max-width: 600px) {
 
     .service-menu {
@@ -606,6 +655,22 @@ h1 img{
     top: 110px;
     left: 180px;
     transform: rotate(-6deg);
+}
+.quote{
+    font-size: 1.3rem;
+    max-width:95%
+}
+.quote-section{
+    margin-top:600px;
+    padding:20px 15px;
+}
+.footer-contact {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contact p {
+    font-size: .95rem;
 }
 }
     
