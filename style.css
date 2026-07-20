@@ -51,7 +51,7 @@ nav a {
     display: block;
 }
 
-button {
+.appointment-btn {
     background:  linear-gradient(to bottom, #b98da7, #a87995);
     color: white;
     border: none;
@@ -218,8 +218,8 @@ h1 img{
 }
 
 .category-left img {
-    width: 58px;
-    height: 58px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
     margin-right:18px;
 }
@@ -243,7 +243,21 @@ h1 img{
     border-bottom: 1px solid rgba(155,102,136,.18);
     justify-items:start;
 }
+.service-note{
+    background:#f6e6ea;
+    color:#7a4c5b;
+    border-left: 4px solid #d18aa0;
+    padding: 10px 16px;
+    margin: 12px 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    font-size:1rem;
+    line-height:1.4;
+    font-family: 'Cormorant Garamond',serif;
 
+}
 .service-item h3 {
     margin: 0;
     color: #3f2d39;
@@ -437,6 +451,40 @@ h1 img{
     color: #999;
     margin: 0;
 }
+.appointment-page{
+    min-height: 100vh;
+    text-align: left;
+    padding: 40px;
+    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .45)), url("tiffpicnew.jpg");
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: block;
+}
+.booking-container{
+    width:700px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.appointment-page h2{
+    color: #f7f7ff;
+    font-family:"Cormorant Garamond",serif;
+    font-size: 3rem;
+    margin-bottom:15px;
+    width: 700px;
+    margin-left:120px;
+    text-align: center;
+}
+.appointment-page p{
+    color:#F7F7F5;
+    font-family:"Cormorant garamond", serif;
+    font-size:1.2rem;
+    margin-bottom: 35px;
+    width: 700px;
+    margin-left:120px;
+    text-align: center;
+}
 @media screen and (max-width: 600px) {
 
     .service-menu {
@@ -571,9 +619,10 @@ h1 img{
 @media (max-width: 768px) {
 
     #specials {
-        background-size: cover;
-        background-position: center;
+        background-size: 200% auto;
+        background-position: center center;
         background-repeat: no-repeat;
+        min-height: auto;
     }
 
     .specials-title {
@@ -673,5 +722,41 @@ h1 img{
 .footer-contact p {
     font-size: 22px;
 }
+.appointment-page{
+    background-size: 200% auto;
+     background-position: center center;
+     background-repeat: no-repeat;
+     min-height: auto;
 }
+.appointment-page{
+    width:100%;
+    max-width: 100%;
+    overflow-x:hidden;
+    box-sizing: border-box;
+}
+.appointment-page h2{
+  
+    max-width: 90%;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top:-10px;
+    text-align: center; 
+    font-size: 28px; 
+}
+.appointment-page p{
+    
+    max-width: 90%;
+    margin-left: 20px;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22px;
+}
+.booking-container{
+    width:90%;
+    max-width:90%;
+    margin:35px auto 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
     
