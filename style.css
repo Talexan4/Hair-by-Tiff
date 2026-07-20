@@ -724,12 +724,7 @@ h1 img{
 .footer-contact p {
     font-size: 22px;
 }
-.appointment-page {
-    background-size: 200% auto;
-    background-position: center 15%;
-    background-repeat: no-repeat;
-    min-height: auto;
-}
+
 .appointment-page h2 {
     width: 90%;
     max-width: 90%;
