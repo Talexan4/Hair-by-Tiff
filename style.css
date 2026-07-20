@@ -722,37 +722,54 @@ h1 img{
 .footer-contact p {
     font-size: 22px;
 }
-.appointment-page{
+.appointment-page {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: auto;
+    right: auto;
+    transform: none;
+    overflow-x: hidden;
+
     background-size: 200% auto;
-     background-position: center center;
-     background-repeat: no-repeat;
-     min-height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: auto;
+}
+.appointment-page h2 {
+    width: 90%;
+    max-width: 90%;
+    margin: -10px auto 0;
+    text-align: center;
+    font-size: 28px;
 }
 
-
-.appointment-page h2{
-  
+.appointment-page p {
+    width: 90%;
     max-width: 90%;
-    margin-left: 20px;
-    margin-right: auto;
-    margin-top:-10px;
-    text-align: center; 
-    font-size: 28px; 
-}
-.appointment-page p{
-    
-    max-width: 90%;
-    margin-left: 20px;
-    margin-right: auto;
+    margin: 10px auto;
     text-align: center;
     font-size: 22px;
 }
-.booking-container{
-    width:90%;
-    max-width:90%;
-    margin:35px auto 0;
+
+.booking-container {
+    display: block;
+    width: 90%;
+    max-width: 90%;
+    min-width: 0;
+    margin: 35px auto 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    position: relative;
+    left: auto;
+    right: auto;
+    transform: none;
+    overflow: hidden;
 }
+
 
     
