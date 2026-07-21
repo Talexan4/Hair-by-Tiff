@@ -51,15 +51,19 @@ nav a {
     display: block;
 }
 
-.appointment-btn {
+.book-button {
+    display: inline-block;
+    width: 180px;
     background:  linear-gradient(to bottom, #b98da7, #a87995);
     color: white;
     border: none;
-    padding: 12px 25px;
+    padding: 10px 15px;
     cursor: pointer;
-    margin-left: auto;
-    font-size:32px;
+    font-size:22px;
     font-family:"Cormorant Garamond",serif;
+    text-align:center;
+    white-space:nowrap;
+    
 }
 
 #menuButton {
@@ -238,7 +242,7 @@ h1 img{
 
 .service-item {
     display: grid;
-    grid-template-columns: 1fr 140px;
+    grid-template-columns: 1fr 220px;
     align-items: center;
     gap: 30px;
     padding: 24px 35px;
@@ -515,7 +519,7 @@ h1 img{
         padding: 18px 16px;
         flex-direction: column;
         align-items: flex-start;
-        font-size: 32px;
+        font-size: 5px;
     }
 
     .service-book-btn {
