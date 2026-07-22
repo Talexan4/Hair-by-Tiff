@@ -43,7 +43,7 @@ nav a {
 #home {
     text-align: left;
     padding: 40px;
-    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .45)), url("tiffpicnew.jpg");
+    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .10)), url("tiffpicnew.jpg");
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ nav a {
 #services {
     text-align: left;
     padding: 40px;
-    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .45)), url("Heropic.jpg");
+    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .10)), url("Heropic.jpg");
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -320,7 +320,7 @@ h1 img{
 #specials {
     text-align: left;
     padding: 40px;
-    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .45)), url("thirsty.png");
+    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .10)), url("thirsty.png");
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -461,7 +461,7 @@ h1 img{
     min-height: 100vh;
     text-align: left;
     padding: 40px;
-    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .45)), url("tiffpicnew.jpg");
+    background: linear-gradient(to right, rgba(26, 18, 46, .95), rgba(26, 18, 46, .10)), url("tiffpicnew.jpg");
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
