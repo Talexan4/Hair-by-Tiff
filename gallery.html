@@ -7,25 +7,28 @@
 content="width=device-width, initial-scale=1.0">
     <title>Hair by Tiffany</title>
     <link rel="stylesheet" href="style.css">
+    <script src="falling-leaves.js" defer></script>
 </head>
 <body>
-     <nav>
-   <div class="page-logo">
-    <img src="dark_logo.png" alt="Hair by Tiffany Logo">
-   </div>
-    </nav>
-    <div id="menuButton" onclick="openMenu()"> Menu</div>
-
-<div id="sideMenu">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+    <nav>
+    <h1>
+        <img src="logo2.png"alt="Hair by Tiffany">
+    </h1>  
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+<div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <a href="services.html">Services</a>
     <a href="gallery.html">Gallery</a>
     <a href="specials.html">Specials</a>
-    <a href="contact.html">Contact</a>
+    
 </div>
-</body>
-<h2>Transformations </h2>
+     
+    </nav> 
+
+<h2 
+    class="gallery-title">
+    Transformations </h2>
 <div class="gallery">
      <div class="gallery">
           <h3></h3>
@@ -41,19 +44,20 @@ content="width=device-width, initial-scale=1.0">
            </div>
         </div>
         <div class="gallery">
-        <div class="gallery">
+          <div class="gallery">
             <h3></h3>
             <img src ="long_man_before.jpg">
         </div>
         <div class="gallery">
             <h3></h3>
             <img src ="long_man_after.jpg">
+            </div>
         <div class="gallery">
             <h3></h3>
             <img src ="long_man_after_two.jpg">
         </div>
-        </div>
-        <h2></h2>
+    </div>
+        <div class="gallery">
          <div class="gallery">
             <h3></h3>
             <img src="men't_cut_before_side.jpg">
@@ -66,7 +70,8 @@ content="width=device-width, initial-scale=1.0">
             <h3></h3>
             <img src="men's_cut_sideview.jpg">
          </div>
-         <h2></h2>
+        </div>
+         <div class="gallery">
          <div class="gallery">
             <h3></h3>
             <img src="woman's_color_before.jpg">
@@ -79,7 +84,8 @@ content="width=device-width, initial-scale=1.0">
             <h3></h3>
             <img src="woman's_color_final.jpg">
          </div>
-         <h2></h2>
+        </div>
+        <div class="gallery">
          <div class="gallery">
             <h3></h3>
             <img src="womans_color_long_before.jpg">
@@ -90,10 +96,14 @@ content="width=device-width, initial-scale=1.0">
          </div>
         </div>
         </div>
-         <h4>Featured Styles</h4>
+         <h4 class="gallery-title">
+            Featured Styles</h4>
+            <div class="gallery">
             <div class="gallery">
             <h5></h5>
             <img src ="man_cut_otherside.jpg">
+            </div>
+            <div class="gallery">
             <h5></h5>
            <img src ="man_cut_side.jpg">
             </div>
@@ -109,9 +119,12 @@ content="width=device-width, initial-scale=1.0">
                 <img src ="bright_color.jpg">
                 <h5></h5>
                 <img src ="bright_color_2.jpg">
+                <img src ="woman's_cut_style.jpg">
+                <h5></h5>
             </div>  
              </div>
-             <h6>Special Occasions</h6>
+              <h6 class="gallery-title">
+                Special Occasions</h6>
              <div class="gallery">
                 <h7></h7>
                 <img src="prom_wedding_side.jpg">
@@ -125,7 +138,8 @@ content="width=device-width, initial-scale=1.0">
                 <img src="purple_hair.jpg">
              </div>
             </div>
-            <h5>Videos</h5>
+            <h8 class="gallery-title">
+                Videos</h8>
             <div class="videos">
                 <h9></h9>
                 <video controls>
@@ -141,16 +155,21 @@ content="width=device-width, initial-scale=1.0">
                 </video>
             </div>
         </div>
-
-
-
+        <footer class="site-footer">
+    <div class="footer-contact">
+        <a href="4054147962">📞Text 405-414-7962</a>
+        <a href="https://www.facebook.com/profile.php?id=100058627775452"target="_blank" rel="noopener noreferrer">
+                Follow & Review on Facebook
+            </a>
+         </div>
+        <p class="copyright">
+            @2026 Hair by Tiffany
+        </p>
+        </footer>
 <script>
-    function openMenu(){
-        document.getElementById("sideMenu").classList.add("open");
-    }
-     function closeMenu(){
-        document.getElementById("sideMenu").classList.remove("open");      
-    }
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
 </script>
 </body>
 </html>

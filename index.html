@@ -7,29 +7,54 @@
 content="width=device-width, initial-scale=1.0">
     <title>Hair by Tiffany</title>
     <link rel="stylesheet" href="style.css">
+    <script src="falling-leaves.js" defer></script>
 </head>
 <body>
     <nav>
-    <h1>Hair by Tiffany</h1>
-    
-<div class="nav-links">
+    <h1>
+        <img src="logo2.png"alt="Hair by Tiffany">
+    </h1>  
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+<div class="nav-links" id="navLinks">
     <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <a href="services.html">Services</a>
     <a href="gallery.html">Gallery</a>
     <a href="specials.html">Specials</a>
-    <a href="contact.html">Contact</a>
 </div>
+     
     </nav>
 
 <section id="home">
     
 <h3>Creating confidence<br>
     through beautiful hair.</h3>
-<button>Book an Appointment</button>
+<a href="https://app.squareup.com/appointments/book/50i3fn3we3m1cr/LPS8D69GT0PBW/start" 
+class="book-button"
+target="_blank">Book an Appointment</a>
 
-</section> 
+ 
+<section class="quote-section">
+    <p class="quote">
+        "Spread love everywhere you go. Let no one ever come to you without leaving happier." - Mother Teresa
+    </p>
+</section>
+</section>
+<footer class="site-footer">
+    <div class="footer-contact">
+        <a href="tel:4054147962">📞Text 405-414-7962</a>
+        <a href="https://www.facebook.com/profile.php?id=100058627775452"target="_blank" rel="noopener noreferrer">
+                Follow & Review on Facebook
+            </a>
+         </div>
+        <p class="copyright">
+            @2026 Hair by Tiffany
+        </p>
+        </footer>
 <script>
-   
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("show");
+}
 </script>
 </body>
 </html>
